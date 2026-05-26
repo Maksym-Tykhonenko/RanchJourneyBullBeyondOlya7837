@@ -71,11 +71,11 @@ export const RootStack = () => {
   const INITIAL_URL = `https://clear-bridge-space.site/`;
   const URL_IDENTIFAIRE = `YWtEAg87`;
 
-  const FATCH_TO_OUR_BACK = `https://sure-web-pro.site/`;
+  const FATCH_TO_OUR_BACK = `https://exact-wave-tech.site/`;
 
   const ONESIGNAL_KEY = `d6809343-1e26-4810-b2d4-5af377a82fbc`;
 
-  const TARGET_DATA = new Date(2026, 4, 21, 8, 8, 0);
+  const TARGET_DATA = new Date(2026, 4, 28, 8, 8, 0);
 
 
   //useEffect(() => {
@@ -109,7 +109,7 @@ useEffect(() => {
   };
 
   finalizeProcess();
-}, [isDataReady, uid, pushOpenWebview]); // Викликати, коли isDataReady або uid змінюється
+}, [isDataReady, uid, pushOpenWebview, timeStampUserId]); // Викликати, коли isDataReady або uid змінюється
 
 // uniq_visit
 const checkUniqVisit = async () => {

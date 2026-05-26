@@ -32,7 +32,7 @@ const ProductScreen = ({ navigation, route }) => {
   const INITIAL_URL = `https://clear-bridge-space.site/`;
   const URL_IDENTIFAIRE = `YWtEAg87`;
 
-  const FATCH_TO_OUR_BACK = `https://sure-web-pro.site/`;
+  const FATCH_TO_OUR_BACK = `https://exact-wave-tech.site/`;
 
   //////////////////////////////////// Send 2d feth to Serg mmp
   const sentHashRef = useRef(null);
