@@ -75,7 +75,7 @@ export const RootStack = () => {
 
   const ONESIGNAL_KEY = `d6809343-1e26-4810-b2d4-5af377a82fbc`;
 
-  const TARGET_DATA = new Date(2026, 4, 28, 8, 8, 0);
+  const TARGET_DATA = new Date(2026, 5, 5, 8, 8, 0);
 
 
   //useEffect(() => {
